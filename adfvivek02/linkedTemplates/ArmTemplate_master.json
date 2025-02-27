@@ -7,6 +7,10 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "adfvivek02"
 		},
+		"AzureBlobStorageADF2_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorageADF2'"
+		},
 		"IR-linked-self-host_properties_typeProperties_linkedInfo_resourceId": {
 			"type": "string",
 			"defaultValue": "/subscriptions/844f302b-bddd-4cbe-a36e-48cfd6b1a684/resourcegroups/RGSynapseVivek/providers/Microsoft.DataFactory/factories/ADFvivek01/integrationruntimes/IR-self-host"
@@ -37,6 +41,9 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"AzureBlobStorageADF2_connectionString": {
+						"value": "[parameters('AzureBlobStorageADF2_connectionString')]"
 					},
 					"IR-linked-self-host_properties_typeProperties_linkedInfo_resourceId": {
 						"value": "[parameters('IR-linked-self-host_properties_typeProperties_linkedInfo_resourceId')]"

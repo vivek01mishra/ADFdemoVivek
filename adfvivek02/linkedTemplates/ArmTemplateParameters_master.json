@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "adfvivek02"
 		},
+		"AzureBlobStorageADF2_connectionString": {
+			"value": ""
+		},
 		"IR-linked-self-host_properties_typeProperties_linkedInfo_resourceId": {
 			"value": "/subscriptions/844f302b-bddd-4cbe-a36e-48cfd6b1a684/resourcegroups/RGSynapseVivek/providers/Microsoft.DataFactory/factories/ADFvivek01/integrationruntimes/IR-self-host"
 		},
