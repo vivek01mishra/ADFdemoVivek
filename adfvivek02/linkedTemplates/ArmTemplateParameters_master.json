@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfvivek02"
+		},
+		"IR-linked-self-host_properties_typeProperties_linkedInfo_resourceId": {
+			"value": "/subscriptions/844f302b-bddd-4cbe-a36e-48cfd6b1a684/resourcegroups/RGSynapseVivek/providers/Microsoft.DataFactory/factories/ADFvivek01/integrationruntimes/IR-self-host"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
