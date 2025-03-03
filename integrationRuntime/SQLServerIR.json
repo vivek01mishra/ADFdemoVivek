@@ -1,0 +1,6 @@
+{
+	"name": "SQLServerIR",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
